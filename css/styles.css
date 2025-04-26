@@ -523,3 +523,42 @@ img {
   width: 40px;
   height: 40px;
 }
+
+.footer-input-email{
+  border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.footer-sub {
+  margin-left: auto;
+}
+
+.footer-form{
+  display: flex;
+  gap: 24px;
+}
+
+.footer-btn {
+  border-radius: 4px;
+  padding: 8px;
+  width: 165px;
+  height: 40px;
+  background: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.icon-fly {
+  fill: #fff;
+  margin-left: 16px;
+}
