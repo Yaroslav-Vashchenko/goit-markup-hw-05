@@ -433,7 +433,7 @@
         <div class="footer-sub">
           <p class="footer-words">Subscribe</p>
           <form class="footer-form">
-            <label for="email">
+            <label class="footer-label" for="email">
               <input
                 class="footer-input-email"
                 type="email"
@@ -454,7 +454,7 @@
     <!-- Modal -->
      <div class="backdrop is-open">
      <div class="modal">
-    <button class="close-btn" >
+    <button class="close-btn" type="button">
       <svg class="svg-modal-btn" width="8" height="8">
       <use href="./images/icons.svg#icon-close-black"></use>
      </svg>
@@ -462,7 +462,7 @@
 <p class="modal-title">Leave your contacts and we will call you back</p>
       <form class="main-form">
         <div class="modal-div">
-          <label class="modal-label" for="form-username">Name</label>
+          <label class="modal-label" for="user-name">Name</label>
         <div class="relative-div">
 
           <input class="form-input" 
@@ -476,13 +476,13 @@
         </div>
       </div>
         <div class="modal-div">
-        <label class="modal-label" for="form-useremail">Email</label>
+        <label class="modal-label" for="form-useremail">Phone</label>
         <div class="relative-div">
           
           <input class="form-input"
-            type="email" 
-            name="form_user" 
-            id="form-useremail"
+            type="tel" 
+            name="user-name" 
+            id="user-name"
             
           >
         <svg class="modal-svg" width="18" height="24">
@@ -491,10 +491,10 @@
         </div>
         </div>
         <div class="modal-div">
-        <label class="modal-label" for="form-userphone">Phone number</label>
+        <label class="modal-label" for="form-userphone">Email</label>
         <div class="relative-div">
           <input class="form-input"
-            type="tel" 
+            type="email" 
             name="form_user" 
             id="form-userphone"
           >
@@ -503,16 +503,16 @@
               </svg>
         </div>
       </div>
-      <div>
-        <label class="modal-label" for="form-usercomment">Comment</label>
+      <div class="modal-comment">
+        <label class="modal-label" for="user-comment">Comment</label> </div>        
         <div>
           <textarea class="form-textarea"
-            name="form_user" 
-            id="form-usercomment" 
+            name="user-comment" 
+            id="user-comment" 
             placeholder="Text input"
           ></textarea>
         </div>
-      </div>        
+     
         <div class="modal-checkbox-div">
           <input class="form-checkbox visually-hidden" 
             type="checkbox" 
